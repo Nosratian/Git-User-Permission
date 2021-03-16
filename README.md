@@ -6,7 +6,14 @@ This script (including classes) processes the sending data through the push requ
 Manage user access to branches generated at the git using hooks.
 This script implements read, write, create, delete, and admin access capabilities (extendable and extensible). It also has the ability to use asterisk characters for more flexibility in naming branches for more dynamic access.
 
+User manual:
+----------------------------------------------------
+Copy all the "src" folder files into the ".git folder" and under the "hooks" folder.
+
 مدیریت دسترسی کاربران برای شاخه های تولید شده در گیت با استفاده از هوک.
 این اسکریپت قابلیت های دسترسی به صورت خواندنی، نوشتنی، ایجاد، حذف و مدیر را پیاده سازی کرده است (قابل تعمیم و توسعه می باشد).
 همچنین قابلیت استفاده از کاراکتر ستاره برای انعطاف بیشتر در تعیین نام شاخه ها جهت دسترسی پویاتر را دارد.
 
+راهنمای کاربری:
+----------------------------------------------------
+تمام پرونده های پوشه "src" را در پوشه ".git" و در زیر پوشه "hooks" کپی کنید.
