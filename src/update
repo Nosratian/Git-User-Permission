@@ -1,0 +1,16 @@
+#!/bin/sh
+
+python "./hooks/update.py" $1 $2 $3
+result=$?
+if [ "$result" = 1 ]; then
+	echo "user not permission for this action"
+	exit 1
+else
+	exit 0
+fi
+
+	
+
+
+
+

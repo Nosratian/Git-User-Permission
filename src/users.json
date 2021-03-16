@@ -1,0 +1,50 @@
+{
+	"UsersInfo": [
+		{
+			"UserName": "user1",
+			"AccessList": [
+				{
+					"Branch": "master",
+					"Role": "Read"
+				},
+				{
+					"Branch": "dev-user-permission",
+					"Role": "Write"
+				},
+				{
+					"Branch": "feature-user-permission",
+					"Role": "Create"
+				},
+				{
+					"Branch": "feature-user-permission/*",
+					"Role": "Admin"
+				},
+				{
+					"Branch": "Test-*",
+					"Role": "Delete"
+				}
+			]
+		},
+		{
+			"UserName": "user2",
+			"AccessList": [
+				{
+					"Branch": "master",
+					"Role": "Write"
+				},
+				{
+					"Branch": "dev-user-permission",
+					"Role": "Admin"
+				},
+				{
+					"Branch": "feature-user-permission",
+					"Role": "Admin"
+				},
+				{
+					"Branch": "Test",
+					"Role": "Admin"
+				}
+			]
+		}
+	]
+}
